@@ -1,0 +1,38 @@
+using UnityEngine;
+using System.Collections;
+
+public class VariablesandFunctions : MonoBehaviour
+{
+    int myNumber = 66;
+
+    void Start()
+    {
+        MultiplyByFive(myNumber);
+        Debug.Log(myNumber);
+    }
+
+    int MultiplyByFive(int number)
+    {
+        int ret;
+
+        ret = number * 5;
+
+        return ret;
+    }
+
+    int myInt = 7;
+
+    void Start()
+    {
+        DivideByOne(myInt);
+    }
+
+    int DivideByOne(int number)
+    {
+        int ret;
+
+        ret = number / 1;
+
+        return ret;
+    }
+}
