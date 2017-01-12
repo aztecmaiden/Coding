@@ -1,0 +1,28 @@
+using UnityEngine;
+using System.Collections
+
+public class LoopsPractice : MonoBehaviour {
+
+    void Start() {
+        for (int i = 0; i < Lights.length; i++) {
+            Lights.intensity = 1;
+        }
+    }
+    
+    public void(){ 
+        int battleWounds = 10;
+        while (battleWounds > 0){
+        Debug.Log ("I have been wounded!");
+        battleWounds--;        
+        }
+    }
+
+//In order to heal the character, the disco ball needs to twirl twice
+public void(){ 
+        int discoBallTwirls = 20;
+        while (discoBallTwirls < 0){
+        Debug.Log ("Discoing will heal my soul");
+        discoBallTwirls++;        
+        }
+    }
+}
