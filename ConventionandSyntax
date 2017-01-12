@@ -1,0 +1,74 @@
+using System.Collections.Generic;
+using System.Diagnostics;
+
+public class ConventionandSyntax { }
+
+public class Health : MonoBehaviour
+{
+
+
+    public int Healthiness(int amount)
+    {
+         yourHealth += amount;
+        return MoreHealth;
+    }
+
+public void enemies(bool myValue)
+{
+        if (myValue)
+            foreach (bool i in skeletonWeapons)
+            {
+                skeletonWeapons [i] = true;
+            }
+    }
+        else {
+            foreach (bool i in, private IEnumerable<bool> skeletonWeapons);
+           
+private int yourHealth;
+    private int MoreHealth;
+
+    skeletonWeapons [i] = false;
+            }
+
+int skelWeapons = 6;
+
+void Start()
+{
+    for (int i = 0; i < skeletonWeapons; i++)
+    {
+        Debug.Log("Hey Look, they'res some enemies and they got some weapons" + i);
+    }
+}
+
+public class  IfStatements : MonoBehaviour
+{
+    float swordStabs = 6.0f;
+    float deathByStabs = 8.0f;
+    float aliveByStabs = 3.0f;
+
+    public float SwordandDeath { get; private set; }
+
+    void Update ()
+    {
+        if (int.GetKeyDown(KeyCode.Space))
+            StabTest();
+
+        swordStabs -= SwordandDeath *.5f;
+
+
+   public void StabTest();
+    {
+        if (swordStabs > deathByStabs)
+        {
+           Debug.Log("Whoops Bro, you're dead.");
+        }
+        else if (swordStabs < aliveByStabs)
+        {
+            Debug.Log("You just got Stabbed. Don't do that.");
+        }
+        else
+        {
+            Debug.Log("Still Healthy, I think.");
+        }
+    }
+}
