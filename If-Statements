@@ -1,0 +1,47 @@
+using UnityEngine;
+using System.Collections;
+
+public class BankAccount : MonoBehaviour{
+    private float moneyTotalAmount = 0;
+    private float savedMoneyTotal = 25;
+
+    public float Balance(){
+        print(moneyTotalAmount);
+        return moneyTotalAmount;
+    }
+
+    public void Deposit(float amount ){
+        moneyTotalAmount += amount;
+        print("Deposit has been made");
+    }
+    public float Withdrawal (float amount){
+        if (moneyTotalAmount > amount){
+            moneyTotalAmount -= amount;
+            return amount;
+        } else{
+            print("No adequate funds");
+            return 0;
+            }
+    }
+
+    public float Savings();{
+        print(savedMoneyTotal);
+        return savedMoneyTotal;        
+    }
+
+    public void depositSavings() {
+        savedMoneyTotal += amount;
+    print("Deposit has been made");
+    }
+
+    public float Transfer(float amount){
+        if (savedMoneyTotal > amount)
+        {
+            savedMoneyTransfer -= amount;
+            return amount;
+         }
+            else{
+            print("No adequate funds");
+            return 0;
+         }
+}
