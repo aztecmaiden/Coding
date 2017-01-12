@@ -1,0 +1,189 @@
+using System.Collections.Generic;
+
+public class SimpleProject : MonoBehaviour{
+
+}
+
+public int Healthiness(int amount)
+{
+    yourHealth += amount;
+    return MoreHealth;
+}
+
+
+public void enemies (bool myValue){
+        if (myValue)
+            foreach (bool i in SimpleSwords)
+            {
+                SimpleSwords[i] = true;
+            }
+    }
+    else
+            foreach (bool i in, private IEnumerable<bool> SimpleSwords);
+
+                private int yourHealth;
+                private int MoreHealth;
+    
+                SimpleSwords [i] = false;
+    
+
+int simpSwords = 5;
+
+void Start()
+{
+    for (int i = 0; i <SimpleSwords; i++)
+    {
+        print("Their Swords are so simple, can they even cut?" + i);
+    }
+}
+
+public class IfStatements : MonoBehaviour
+{
+    float swordStabs = 5.0f;
+    float deathByStabs = 7.0f;
+    float aliveByStabs = 2.0f;
+
+    public float SwordandDeath { get; private set; }
+
+    void Update()
+    {
+        if (int.GetKeyDown(KeyCode.Space))
+            StabTest();
+
+        swordStabs -= SwordandDeath * .5f; }
+
+
+   public void StabTest();
+    {
+        if (swordStabs > deathByStabs)
+        {
+           print("Turns out that they can cut");
+        }
+        else if (swordStabs<aliveByStabs)
+        {
+            print("Tis only a flesh wound");
+        }
+        else
+        {
+            print("Still Healthy, I think.");
+        }
+    }
+
+
+    public void(){ 
+        int simpleWounds = 10;
+        while (simpleWounds > 0){
+        print("I have been wounded!");
+        simpleWounds--;        
+        }
+    }
+
+//In order to heal the character, they have to spin
+public void(){ 
+        int simpleTwirls = 20;
+        while (simpleTwirls< 0){
+        print("I like to Twirl");
+        simpleTwirls++;        
+        }
+    }
+}
+
+
+public class MyPatience : MonoBehaviour
+{
+    private float patienceTotalAmount = 0;
+    private float savedPatienceTotal = 10;
+
+    public float Balance()
+    {
+        print(patienceTotalAmount);
+        return patienceTotalAmount;
+    }
+
+    public void Deposit(float amount)
+    {
+        patienceTotalAmount += amount;
+        print("Patience has risen");
+    }
+    public float Withdrawal(float amount)
+    {
+        if (patienceTotalAmount > amount)
+        {
+            patienceTotalAmount -= amount;
+            return amount;
+        }
+        else
+        {
+            print("Not patient enough");
+            return 0;
+        }
+    }
+
+    public float Savings();{
+        print(savedPatienceTotal);
+        return savedPatienceTotal;        
+    }
+
+public void depositSavings()
+{
+    savedPatienceTotal += amount;
+    print("Patience has risen");
+}
+
+public float Transfer(float amount)
+{
+    if (savedPatienceTotal > amount)
+    {
+        savedPatienceTransfer -= amount;
+        return amount;
+    }
+    else
+    {
+        print("Not Patient Enough");
+        return 0;
+    }
+}
+
+
+
+public class Simple_People : MonoBehaviour
+{
+
+    public int People = 3;
+    public enum Peeps { John, Bob, His_Grand_Majesty_Tim}
+    public new Peeps name;
+
+
+    void Start()
+    {
+
+        switch (Dogs)
+        {
+            case 0:
+                print("Why, Hi there!");
+                break;
+            case 1:
+                print("Nice Weather we're having");
+                break;
+            case 2:
+                print("Want to see awkward pictures of my family?");
+                break;
+            case 3:
+                print("Help me move!");
+                break;
+        }
+
+        switch (name)
+        {
+            case Peeps.John:
+                print("I'm just your average Joe");
+                break;
+            case Peeps.Bob:
+                print("I enjoy most sports. Like a stereotypical man character.");
+                break;
+            case Peeps.His_Grand_Majesty_Tim:
+                print("BOW BEFORE ME OR RISK DEATH!");
+                break;
+        }
+    }
+    
