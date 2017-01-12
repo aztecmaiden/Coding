@@ -1,0 +1,118 @@
+using UnityEngine;
+using System.Collections;
+
+public class SimpProject : MonoBehaviour
+{
+
+    public int Children = 3;
+    public int Sightings = 3;
+    public enum Kids { Tony, That_One_Kid, That_other_kid}
+    public new Kids name;
+    public enum Cryptids { Jersey_Devil, Bigfoot, Black_Dog, Leprechaun, Mothman, Chupacabra, SlenderMan, La_Llorona, Hoop_Snakes, Mermaids, Yeti, Loch_Ness_Monster, Phoenix, Unicorn, Zombies, Vampires, Werewolves }
+    public new Cryptids monsters;
+
+
+    void Start()
+    {
+
+        switch (Children)
+        {
+            case 0:
+                print("Tell me about the Monsters!");
+                break;
+            case 1:
+                print("Not that scary");
+                break;
+            case 2:
+                print("Okay that's creepy");
+                break;
+            case 3:
+                print("Well I'm never going to sleep again");
+                break;
+        }
+
+        switch (name)
+        {
+            case Kids.Tony:
+                print("I'm the favorite, that's why I actually have a name");
+                break;
+            case Kids.That_One_Kid:
+                print("I like to eat paste");
+                break;
+            case Kids. That_other_kid:
+                print("I sometimes cry myself to sleep");
+                break;
+        }
+
+
+        switch (Sightings)
+        {
+            case 1:
+                print("It must have been the wind");
+                break;
+            case 2:
+                print("Did you hear that?!");
+                break;
+            case 3:
+                print("Is that a monster?!");
+                break;
+        }
+
+        switch (monsters)
+        {
+            case Cryptids.Jersey_Devil:
+                print("My mom doesn't love me.");
+                break;
+            case Cryptids.Bigfoot:
+                print("I can never find shoes my size.");
+                break;
+            case Cryptids.Black_Dog:
+                print("I am an omen of Death");
+                break;
+            case Cryptids.Leprechaun:
+                print("Don't steal my gold. Please?");
+                break;
+            case Cryptids.Mothman:
+                print("I prophesized that bridge collapsing. Guess I'm a know it all.");
+                break;
+            case Cryptids.Chupacabra:
+                print("Goat's blood is pretty cool. I guess. *shrugh*");
+                break;
+            case Cryptids.Hoop_Snakes:
+                print("I like to roll down hills");
+                break;
+            case Cryptids.La_Llorona:
+                print("I drowned my children in the river. And now I can't find them");
+                break;
+            case Cryptids.Loch_Ness_Monster:
+                print("I'm just really camera shy");
+                break;
+            case Cryptids.Mermaids:
+                print("If you're prettier than us, we will drown you.");
+                break;
+            case Cryptids.Phoenix:
+                print("*bursts into flames*");
+                break;
+            case Cryptids.SlenderMan:
+                print("I'm so 2012");
+                break;
+            case Cryptids.Unicorn:
+                print("I will stab you with my horn and you will die.");
+                break;
+            case Cryptids.Vampires:
+                print("I DO NOT sparkle");
+                break;
+            case Cryptids.Werewolves:
+                print("I'm just a big dog. But I will bite");
+                break;
+            case Cryptids.Yeti:
+                print("I'm basically a frozen BigFoot.");
+                break;
+            case Cryptids.Zombies:
+                print("I'm actually allergic to brains. Do you have a brains substitute?");
+                break;
+        }
+
+    }
+
+}
