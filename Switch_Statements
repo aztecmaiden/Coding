@@ -1,0 +1,88 @@
+using UnityEngine;
+using System.Collections;
+
+public class Switch_Statements : MonoBehaviour
+{
+
+    public int Dogs = 5;
+    public int Sightings = 3;
+    public enum Doggos {Patches, Fuzzy_Butt, Snowball, Fighting_Evans}
+    public new Doggos name;
+    public enum Cryptids { Jersey_Devil, Bigfoot, Mothman, Chupacabra}
+    public new Cryptids monsters;
+
+
+    void Start()
+    {
+
+        switch (Dogs)
+        {
+            case 0:
+                print("Boof, Boof!");
+                break;
+            case 1:
+                print("Rub My Belly, pleese!");
+                break;
+            case 2:
+                print("Feed my tums!");
+                break;
+            case 3:
+                print("Thank You!");
+                break;
+            case 4:
+                print("I will give you much kisses!");
+                break;
+            case 5:
+                print("Nap time. *loud snore noises*");
+                break;
+        }
+
+        switch (name)
+        {
+            case Doggos.Patches:
+                print("I am a good boy.");
+                break;
+            case Doggos.Fuzzy_Butt:
+                print("My butt is the fuzziest!");
+                break;
+            case Doggos.Snowball:
+                print("I have softer fur than the others.");
+                break;
+            case Doggos.Fighting_Evans:
+                print("I will fight thee! Boof");
+                break;
+        }
+
+
+        switch (Sightings)
+        {
+            case 1:
+                print("It must have been the wind");
+                break;
+            case 2:
+                print("Did you hear that?!");
+                break;
+            case 3:
+                print("Is that a monster?!");
+                break;
+        }
+
+        switch (monsters)
+        {
+            case Cryptids.Jersey_Devil:
+                print("My mom doesn't love me.");
+                break;
+            case Cryptids.Bigfoot:
+                print("I can never find shoes my size.");
+                break;
+            case Cryptids.Mothman:
+                print("I prophesized that bridge collapsing. Guess I'm a know it all.");
+                break;
+            case Cryptids.Chupacabra:
+                print("Goat's blood is pretty cool. I guess. *shrugh*");
+                break;
+        }
+
+        }
+
+}
